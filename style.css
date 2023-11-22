@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    float: right;
+   
+}
+nav li {
+    list-style: none;
+    float: right;
+    padding: 10px 40px;
+}
+
+nav li:hover {
+    font-size: 14px;
+    font-weight:bold;
+    background-color: rgb(98, 110, 120);
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    border-radius: 50px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.header-right {
+    float: left;
+    font-size: 40px;
+}
+
+header {
+    background-color: rgb(158, 175, 170);
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+     
+}
+
+.head {
+    justify-content: space-between;
+    
+}
+
+main {
+    padding: 40px 60px;
+}
+.logo img {
+    width: 300px;
+    height: 300px;
+    margin: 50px 0 0 50px;
+    border-radius: 100px;
+    transition: .7s ease-out;
+}
+
+.logo img:hover{
+    box-shadow: 0 0 100px black;
+    transition: .7s ease;
+}
+
+.logo {
+    display: flex;
+}
+
+.container {
+    margin-left: 100px;
+    margin-top: 150px;
+    letter-spacing: 2px ;
+}
+
+hr {
+    margin-top: 40px;
+}
+
+footer {
+    background-color: brown;
+    color: white;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 100px;
+}
+footer p{
+    line-height: 30px;
+}
+
+
+/* contact style */
+
+section h1 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
